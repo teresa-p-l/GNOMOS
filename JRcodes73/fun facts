@@ -1,0 +1,10 @@
+Mantener fijo la diferencia de potencial entre pozo y pared 
+hace que se mantenga la misma forma para la banda pero se desplaza
+en vertical, es decir, cambia la energia a la que se produce. 
+Tiene sentido en verdad. Esto no se cumple cuando el pozo es negativo 
+(por alguna razón).
+
+Comportamiento raro para (wall, well) = (0.8,-0.4), el salto no ocurre
+en el mismo sitio (relacionado con ocurrencia en eje X?)
+
+Diferencia de potencial grande -> zonas de brillouin mas planas
