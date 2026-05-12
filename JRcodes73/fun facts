@@ -17,3 +17,11 @@ Voy a ponerme a ver cosas teoricas a ver si encuentro algo
 Interesante: Griffiths pags 198-203 te habla de un modelo de N pozos con 
 condiciones de contorno periódicas y CREO que una fórmula para calcular
 el ancho de la banda prohibida. Ahora lo leere mejor a ver si me entere bien
+
+Mas bibliografia que parece interesante -> 
+Datta, Supriyo - Electronic Transport in Mesoscopic Systems capitulos 5.5, 5.6 
+es una profundizacion del modelo que se habla en el Griffiths pero tiene una cosa
+que me ha llamado bastante la atencion, la figura 5.19 donde muestra la posicion de
+los bordes de las bandas (de forma analitica!) para el GaAs usando como modelo pozos
+cuadrados (lo nuestro) para ello usa las ecuaciones 5.89 y 5.90 aunque todavia no
+no se como, pero en el texto pone eso asi que sera verdad.
