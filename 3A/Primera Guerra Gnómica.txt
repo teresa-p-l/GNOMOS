@@ -1,7 +1,7 @@
-El momento en el que se desarrolla la primera guerra Gnómica es cuando la sociedad de Gnomos y los enemigos (ns quienes son, van a ser nomos tmb) no están demasiado desarrollados. Los gnomos de aquel entonces habían desarrollado la habilidad de lanzar 'KIENES', unas partículas similares a las partículas subatómicas que tienen energía del orden de la energía del interior.
+El momento en el que se desarrolla la primera guerra Gnómica es cuando la sociedad de Gnomos y los enemigos (ns quienes son, van a ser nomos judios tmb) no están demasiado desarrollados. Los gnomos de aquel entonces habían desarrollado la habilidad de lanzar 'KIENES', unas partículas similares a las partículas subatómicas que tienen energía del orden de la energía del interior.
 
 
-El bando de los Gnomos al que estamos defendiendo (tendríamos que ponerle nombre) tiene a su población reunida en una zona de las montañas y se quieren recubrir de una barrera que evite el paso de los KIENES hacia su poblado para poder ganar la guerra a base de defensa, mientras mandan otras tropas a que se lancen KIENES contra sus enemigos.
+El bando de los Gnomos al que estamos defendiendo (tendríamos que ponerle nombre (los que no son judios)) tiene a su población reunida en una zona de las montañas y se quieren recubrir de una barrera que evite el paso de los KIENES hacia su poblado para poder ganar la guerra a base de defensa, mientras mandan otras tropas a que se lancen KIENES contra sus enemigos.
 
 
 La idea es simular una barrera de potencial cambiando su ancho y masa efectiva y estudiar el coeficiente de transmisión para que pase menos de 0.01% de los KIENES a dentro de la barrera.
