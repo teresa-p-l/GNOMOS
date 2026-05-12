@@ -1,0 +1,12 @@
+El momento en el que se desarrolla la primera guerra Gnómica es cuando la sociedad de Gnomos y los enemigos (ns quienes son, van a ser nomos tmb) no están demasiado desarrollados. Los gnomos de aquel entonces habían desarrollado la habilidad de lanzar 'KIENES', unas partículas similares a las partículas subatómicas que tienen energía del orden de la energía del interior.
+
+
+El bando de los Gnomos al que estamos defendiendo (tendríamos que ponerle nombre) tiene a su población reunida en una zona de las montañas y se quieren recubrir de una barrera que evite el paso de los KIENES hacia su poblado para poder ganar la guerra a base de defensa, mientras mandan otras tropas a que se lancen KIENES contra sus enemigos.
+
+
+La idea es simular una barrera de potencial cambiando su ancho y masa efectiva y estudiar el coeficiente de transmisión para que pase menos de 0.01% de los KIENES a dentro de la barrera.
+Se estudia cual sería el ancho perfecto para que se cumpla la condición teniendo la masa efectiva dentro y fuera de la barrera igual para poder hacer que sea transparente o algo.
+Y luego comprobamos cual es la relación entre ancho y masa efectiva para hacer la barrera de algún material pero que sea más delgada.
+
+NÚMEROS: 
+La energía de los KIENES se supone a 0.10 eV (se puede buscar alguna justificación)
