@@ -8,3 +8,7 @@ Comportamiento raro para (wall, well) = (0.8,-0.4), el salto no ocurre
 en el mismo sitio (relacionado con ocurrencia en eje X?)
 
 Diferencia de potencial grande -> zonas de brillouin mas planas
+
+El tamaño de los gaps es la misma para mismas diferencias de potencial. Esto se cumple para todos los gaps (que he visto).
+
+Voy a ponerme a ver cosas teoricas a ver si encuentro algo
