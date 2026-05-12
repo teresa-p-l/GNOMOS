@@ -9,6 +9,11 @@ en el mismo sitio (relacionado con ocurrencia en eje X?)
 
 Diferencia de potencial grande -> zonas de brillouin mas planas
 
-El tamaño de los gaps es la misma para mismas diferencias de potencial. Esto se cumple para todos los gaps (que he visto).
+El tamaño de los gaps es la misma para mismas diferencias de potencial.
+Esto se cumple para todos los gaps (que he visto).
 
 Voy a ponerme a ver cosas teoricas a ver si encuentro algo
+
+Interesante: Griffiths pags 198-203 te habla de un modelo de N pozos con 
+condiciones de contorno periódicas y CREO que una fórmula para calcular
+el ancho de la banda prohibida. Ahora lo leere mejor a ver si me entere bien
