@@ -1,0 +1,32 @@
+El codigo esta hecho en Julia por lo que necesitareis
+varias cosas si quereis cambiar datos del codigo.
+
+Descargar Julia (creo que esto es necesario)
+    Os vais a este enlace https://julialang.org/downloads/
+    y os descargais Julia con el instalador que pone 
+    "MSIX App Installer"
+
+Añadir la extension de Julia a vsc
+    Creo que esto es trivial
+
+Añadir los paquetes
+    Una vez que tengais Julia instalado lo abrisy poneis lo 
+    que hay entre llaves
+    {
+        using Pkg
+        Pkg.add("PhysicalConstants")
+        Pkg.add("Plots")
+        Pkg.add("Unitful")
+        exit()
+    }
+
+    En caso de no poder ejecutar todavia el codigo volveis a meteros
+    en julia y escribis esto
+    {
+        using Pkg
+        Pkg.add("IJulia")
+        exit()
+    }
+
+    Yo no recuerdo haberlo hecho en ningun momento pero se supone que es necesario.
+    A lo mejor me estoy haciendo mayor y me flojea la memoria.

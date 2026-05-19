@@ -1,0 +1,10 @@
+En el archivo de Bandas_analiticas lo que hago es basicamente graficar
+la forma que tienen las bandas analiticas segun la teoria de la bibliografia.
+Usando esa misma teoría podemos calcular el numero de onda (k), esto antes era
+imposible ya que el simulador a la hora de generar las bandas solo nos daba las 
+ocurrencias. La finalidad de este programa es simplemente aportar al analisis
+teorico de las bandas profundidad, podemos ver como el gap sucede en los bordes
+las zonas de Brillouin lo que nos indica que el calculo de k parece correcto.
+
+Otra de las ventajas del codigo es que es mas rapido que el simulador por lo que 
+a la hora de probar numeros nuevos es mas eficiente.
