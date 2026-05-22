@@ -14,19 +14,13 @@ Añadir los paquetes
     que hay entre llaves
     {
         using Pkg
+        Pkg.add("IJulia")
         Pkg.add("PhysicalConstants")
         Pkg.add("Plots")
         Pkg.add("Unitful")
         exit()
     }
 
-    En caso de no poder ejecutar todavia el codigo volveis a meteros
-    en julia y escribis esto
-    {
-        using Pkg
-        Pkg.add("IJulia")
-        exit()
-    }
-
-    Yo no recuerdo haberlo hecho en ningun momento pero se supone que es necesario.
-    A lo mejor me estoy haciendo mayor y me flojea la memoria.
+    El paquete de IJulia es para que funcion bien con los 
+    notebooks, me creia que a mi me funcionaba bien sin 
+    ese paquete pero es porque ya lo tenia instalado
