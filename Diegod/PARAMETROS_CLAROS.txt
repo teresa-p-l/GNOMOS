@@ -11,4 +11,4 @@ La altura viene dada por la propia unión, dopado y demás.
 
 3.- La masa efectiva para ello.
 
-Si vamos a usar silicio, podemos poner que la masa efectiva 
+Si vamos a usar silicio, podemos poner que la masa efectiva es 0.19 me, que es la más usada.
