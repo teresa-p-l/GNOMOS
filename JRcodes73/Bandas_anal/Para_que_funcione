@@ -18,6 +18,8 @@ Añadir los paquetes
         Pkg.add("PhysicalConstants")
         Pkg.add("Plots")
         Pkg.add("Unitful")
+        Pkg.add("CSV")
+        Pkg.add("DataFrames")
         exit()
     }
 
