@@ -1,0 +1,76 @@
+
+EXPLICACIONES PARA EL NANOHILO. TODO LO QUE HAY QUE SABER.
+
+
+-----------------------------------------------------------------
+LORE ------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+
+Los gnomos hicieron una unión PN pero por la escala en la que estábamos era imposible salir de la zona de carga espacial.
+Por tanto decidieron buscar solución con nanohilos con gates y aislantes (MOS, Metal Oxide Semiconductor).
+Vieron que esta vez sí eran predecibles los resultados y se quedaron con esto.
+Entonces tienen una barrera que hace de muro físico (el propio nanohilo), y de potencial contra los kienes (el gate).
+
+
+
+
+-----------------------------------------------------------------
+PROPIEDADES DE LOS MATERIALES------------------------------------
+-----------------------------------------------------------------
+
+Un nanohilo es un semiconductor muy largo y muy poco ancho en las demás dimensiones: L >> W, T (ancho y alto).
+El gate es un trozo de metal que va unido al nanohilo mediante un óxido muy fino.
+Además, como el gate estará a una diferencia de potencial, actuará como una "capacidad". Para evitarnos efectos de borde rodearemos también el gate por el óxido más ancho.
+Intento hacer un dibujo.
+
+
+
+     ######********Gate**********######
+     ##############Oxido###############
+..................Nanohilo.............................
+     ##############Oxido###############
+     ######********Gate**********######
+
+     (Así es como se vería en una sección horizontal. Imagínatelo como un cable cilíndrico con el nanohilo en el centro).   
+
+
+
+
+El nanohilo será InAs (arsenuiro de indio), con masa efectiva de 0.023 me.
+El gate será TiN (nitruro de titanio), con a=4.2 Amstrong.
+El óxido sera HfO2 (óxido de hafnio), con una permeabilidad eléctrica grande (unos 25).
+
+Pongo esa masa efectiva porque me veo que los potenciales serán anchos. Como la transmisión va con e^(-(m*L)^0.5), tendré que reducir la masa para compensar esa anchura.
+El gate funciona cualquier metal. He escogido ese ya que es el más usado y se pega bien. No como el oro que no suele adherirse a los demás compuestos (info chati).
+El óxido debe tener una permeabilidad eléctrica alta. Esto es para que las líneas de campo entre el gate y nanohilo vayan perpendiculares.
+También rodeamos el gate con más óxido para que apantalle (en gran medida) los efectos de borde y así el pozo sea más cuadrado. Si no lo hicieramos, saldría una barrera de potencial muy suave.
+No podemos simular una barrera de potencial cuadrada perfecta así porque entonces tendríamos un campo E infinito. Piensa que E = dV/dx, y un campo altísimo "rompería" los electrones.
+Esto en heteroestructuras no pasa, porque la barrera de potencial va ligado a una discontinuidad en las masas efectivas. NO USAREMOS HETEROESTRUCTURAS. Somos gays.
+
+
+
+
+
+-----------------------------------------------------------------
+EL POTENCIAL ----------------------------------------------------
+-----------------------------------------------------------------
+
+El gate se conecta a un potencial NEGATIVO con respecto del nanohilo (semiconductor), creando así una barrera de potencial.
+Lo que estamos haciendo realmente es subir los niveles de energía del semiconductor, en esa posición, haciendo que los electrones tengan dificultades al pasar.
+El gate actuará como una capacidad con respecto al nanohilo.
+
+El ancho del potencial será prácticamente el ancho del gate. Cuanto más ancho lo hagamos, mejor es la aproximación de pozo cuadrado, pero muy ancho y nanohub no va, o no tenemos prácticamente transmisión.
+La altura del potencial NO ES IGUAL AL VOLTAJE DEL GATE, HAY UN FACTOR DE ESCALA.
+Este factor de escala lo hemos dado en nanoelectrónica y es C_g/C_ES. Cg es la capacidad del Gate y C_ES es la "capacidad total" del sistema.
+Si conectamos el nanohilo a dos terminales S y D (fuente y drenador) uno a cada extremo y aplicamos un voltaje entre ellos, VDS, entonces tendrá cada uno una capacidad asociada: C_s y C_d
+Básicamente, C_ES = C_s + C_d + C_g. Estos son números que nosotros no hemos estudiado y no sabemos cómo obtenerlos. Partimos de ellos, por tanto, pondremos un valor aceptable.
+Un transitor es mejor cuando C_g >> C_s y C_d, porque así el factor C_g/C_ES es prácticamente 1. Nosotros con esta escala no podemos asumir 1, por lo que asumiremos 0.8.
+
+
+
+
+
+
+
