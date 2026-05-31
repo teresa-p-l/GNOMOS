@@ -80,7 +80,7 @@ PARÁMETROS A PONER ----------------------------------------------
 Este párrafo es para ver qué números ponemos en el simulador, o al menos el orden de ellos.
 
 - Masa efectiva (la de InAs) = 0.023
-- Altura de barrera = está bien a 0.4, pero no poner más de 0.6 o 0.7
+- Altura de barrera = está bien a 0.3. Como mucho 0.354 ya que Egap del InAs es 0.354 y no queremos un potencial mayor que Egap.
 - Anchura de barrera = mínimo 15 nm. Sino ya no se aproxima bien a cuadrado.
 - Espaciado entre barreras = mínimo 3 nm. Esto es porque la suavidad entre pozos es más o menos 1 nm, si pones 2nm es como si las barreras se tocaran.
 
