@@ -1,1 +1,29 @@
-Es solo para ver si funciona bien
+EXPLICACIONES QUE VOY SACANDO PARA LAS N BARRERAS
+
+1. DE DÓNDE SALE LA IDEA DE N BARRERAS Y PARA QUÉ VA A SERVIR QUE SALGAN BANDAS DE AHÍ
+
+Después de la Primera Guerra (y última), lo que ocurre es que los gnomos estudian más a fondo lo que hacen las barreras y se dan cuenta
+de que con las N barreras tienes la ventaja de las bandas (se modela teóricamente con lo de los libros). Se puede mandar info a través de ellas 
+si mandas electrones con una masa efectiva que te interese y con una velocidad que puedes calcular si conoces la estructura de bandas. 
+PARA ESO va a servir que haya bandas, para mandar electrones por un canal controlado y no el vacío donde puedo conocer con precisión su velocidad de grupo. 
+La velocidad de cada electrón va a ser lo que permita  "Codificar la información". Asumimos que en cualquier caso, los gnomos son mucho más lentos que los electrones
+moviéndose por la red (pero invulnerables a colisiones con ellos),  por eso tiene sentido usarlos como forma de comunicarse a distancia
+
+2. EL SIMULADOR PREDICE LOS DATOS QUE LUEGO USAN LOS GNOMOS Y ASUMIMOS QUE LOS DATOS QUE ESCUPE SON TAL CUAL LO QUE LUEGO LOS GNOMOS CONSTRUYEN EN SUN PLANETA
+
+O sea, si el simulador dice que la energia del primer Gap es E, entonces los gnomos construyen un sistema cuya primer energía de Gap es exactamente E 
+
+3. JUSTIFICAR PRECISIÓN ENTRE SIMULADOR Y TEORÍA
+
+Como nos interesa sacar la velocidad de los electrones a partir de la velocidad de grupo y para eso necesitamos E(k), es necesario dar el mapeo entre k y el numero de ocurrencias
+Con eso se sabe la velocidad de los electrones en la vida real porque podremos sustutuir la ocurrencia en vez de la "k" en la expresión de la velocidad de grupo.
+
+Para eso antes hay que asegurarse de que el simulador con las N barreras que metamos hace bien las cuentas y que no estamos cogiendo un número N demasiado pequeño por ejemplo.
+A fin de justificar la validez de los resultados que dé el simulador para un número fijo de barreras
+se va a graficar la desviación relativa entre el gap 1, el gap 2, el gap 3,... para diferentes N. Lo que se ovserva es que para un N fijo, a medida que te vas a gaps más altos
+la desvaición respecto al calculado teóricamente se dispara. Tomando N=30 he visto que el Gap 3 te lo da con una desviación de solo el 6,59%; pero ya el 4 por ejemplo sale que es del 35%.
+Si usamos como criterio de maximo error que la desviación Teórico-Simulado no sea mayor del 7% entonces siempre que se lancen simulaciones y se hagan cosas con los datos que dén para energías
+por debajo del gap 3 estaría justificado que son válidas. Tengo una gráfica donde se ve que para N<30 los errores se hacen grandes muy pronto.
+La forma de justificar que sea 30 puede ser que para el ancho minimo de barrera y pozo que dijo Diego literalmente el planeta no dé para poner más de 30.
+
+
