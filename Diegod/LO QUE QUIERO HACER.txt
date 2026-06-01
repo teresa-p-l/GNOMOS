@@ -1,0 +1,51 @@
+
+########################################################
+####        QUÉ HACER CON LAS DOBLES BARRERAS       ####
+########################################################
+
+
+
+Lore ------------------------
+
+Termina la primera guerra gnómica. Se derrumban las barreras construidas anteriormente. Pero, vuelven a entrar en guerra.
+Quisieron ampliar el uso de la barrera. Ya no solo paraba proyectiles de los enemigos, sino que ahora permite su comunicación.
+Resulta que mandar una partícula a más de 0.4 eV es muy costoso para ellos, pero 0.25 está aceptable y 0.35 eV es costoso pero asumible, así que fue destinada a uso miliar.
+Con ello consiguieron que los enemigos no mandaran proyectiles pero nosotros sí, y además, podíamos recibir esa información los aliados para atacar desde dentro.
+
+
+Experimentos hasta la fecha ----------------------
+
+
+-> Modificando la anchura entre potenciales: 20nm, 10nm, 5nm, 3nm, 2nm, con anchura de barrera de 15 nm y altura 0.3V
+Anoto la diferencia de energía entre 1º pico y 2º pico y la localización del primero.
+
+20: 0.026 eV, 0.105 eV, 0.2234 eV. Tiene 3 picos.
+10: 0.0735 eV,  0.18280
+5 : 0.1557 eV,  0.1943
+3 : 0.219  eV,  0.131
+2 : 0.256  eV,  0.1
+
+Conclusión: Bajar la distancia hace que suba el primer máximo, pero baje el segundo. Hay que fine tune.
+
+-> Modificando la anchura de la barrera: 15, 20, 30, 40nm, con anchura intermedia de 10 nm y altura 0.3V
+
+15: 0.0735 eV,  0.18280 
+20: 0.0735 eV,  0.1824
+30: 0.0735 eV,  0.1824
+40: 0.0735 eV,  0.1824
+
+Los picos de transmisión no dependen de la longitud de la barrera.
+
+
+CONFIGURACIÓN BUENA:
+
+10-15-8.5-15-10
+Tiene 2 picos dentro de la barrera:
+- a 0.09 eV y prácticamente T=1
+- a 0.29 eV y T=1
+
+Eso es lo que me da el simulador, pero el python me da que el pico de 0.09 está en T de 10^-3
+
+
+
+
