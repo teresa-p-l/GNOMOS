@@ -1,0 +1,77 @@
+
+EXPLICACIONES PARA TODO LO DE LAS 2 BARRERAS. 
+
+
+
+----------------------------------------------------------------
+LORE -----------------------------------------------------------
+----------------------------------------------------------------
+
+Los gnomos han terminado la Gran Guerra Gnómica. Destruyen los potenciales de una barrera y sus nanohilos.
+Vuelven a estar en guerra. Ahora los kienes no tienen una energía fija de 0.1 eV, sino que los enemigos la lanzan entre 0.1 y 0.2 eV.
+Entonces mejoran el dispositivo de 1 barrera para que haya 2.
+Tienen la teoría para barreras de una misma altura y anchura, separadas una distancia, pues probarán eso mismo.
+Descubren que la configuración X-15-8.5-15-X a una altura de 0.3V les proporciona unos resultados espectaculares. (X denota cualquier distancia >1nm).
+
+Esta configuración tiene 2 picos: uno muy fino entorno a 0.0901 eV y uno más ancho en 0.29 eV.
+El pico estrecho se lo adueñan los militares, el cual usan mucha concentración para mandar enería en ese ancho de banda minúsculo.
+Los militares se mandan kienes en paquetes a zonas enemigas, inventando así el idioma gnomorse. Tienen dispositivos para absorber y registrar esos kienes.
+El pico ancho de 0.29 eV se destina a fines civiles. Hay compañías que hacen mandar mensajes a sus familiares al otro lado del muro.
+
+Termina la guerra mucho más rápido por ser el dispositivo más sofisticado.
+No destruyen las barreras porque el lobby de las compañías de mensajería es demasiado poderoso.
+Sin embargo no pueden parar el paso del tiempo y se van "desechando" todas a un mismo sitio.
+
+Se observa un comportamiento raro de todas estas configuraciones juntas, como si tuvieran regiones permitidas y no permitidas.
+El departamento de electronómica le pide al todopoderoso presidente que reestructure el mundo para hacer uso de esta tecnología. 
+Comienzan las N barreras.
+
+
+----------------------------------------------------------------
+FORMALISMO MATRICIAL -------------------------------------------
+----------------------------------------------------------------
+
+Al final de todo es una ecuación de autovalores y autovectores.
+El vector que multiplica a la matriz es el 'inicial' y el resultante el 'final' tras pasar la barrera.
+Nos quedamos ahí si solo hay una barrera, pero no, hay 2.
+
+Si la región a atravesar es a potencial nulo entonces tenemos una diagonal exponencial imaginaria con el ancho de esa región.
+Su determinante tiene que dar 1 así que una es positiva y la otra es negativa, estos son los coeficientes 1/t y 1/r (ojo, no T y R)
+
+Si la región tiene potencial entonces hay que sacar los coeficientes mij. 
+Estos básicamente se sacan aplicando condiciones de contorno en la función y en la derivada, vamos lo de siempre de cuantica.
+
+Entonces tenemos 3 regiones en total: V-0-V, pues el resultado final será proporcional a la matriz producto de esas 3.
+De nuevo, la diagonal son los coeficientes 1/t y 1/r, como en óptica.
+Entonces el coeficiente de transmisión total será 1/|t|^2, que si la matriz resultante es T, entonces es 1/|T_11|^2.
+
+Entonces multiplicamos las matrices, encontramos ese valor y usamos que m_11 es un complejo de la forma módulo*fase.
+De esa forma obtenemos la ecuación 12 (T=(1+4...)^(-1)). Ahora solo tenemos que hacer que los coeficientes t^2 + r^2 = 1.
+Esto se traduce a que m11^2 - m12^2 = 1 (lo dice el libro). Lo aplicamos y lo dejamos todo en función de k, kappa, L y W.
+Recuerdo que los parámetros son:
+- k es la energía "libre" de potencial.
+- kappa es la energía dentro del potencial.
+- L es la anchura de la barrera.
+- W es la anchura entre las barreras.
+Llegamos finalmente al resultado de la siguiente ecuacion, la 13.
+
+
+----------------------------------------------------------------
+LAS DOBLES BARRERAS --------------------------------------------
+----------------------------------------------------------------
+
+No hay nada especial aquí. Van a ir variando las anchuras de las regiones a potencial V=0.3. 
+Simplemente van probando configuraciones que hagan esto:
+
+- Minimicen el ancho de banda entre 0.1 y 0.2.
+- Permitan algún pico entre 0 y 0.1 con trasmisión casi 1, y haya un pico entre 0.2 y 0.3 con transmisión casi 1.
+
+Consiguen verlo para 10-15-8.5-15-10 nm (configuración espacial). 
+Encuentran un pico muy muy estrecho entorno a 0.0901 eV y uno más ancho a 0.29 eV. 
+
+
+
+
+
+
+

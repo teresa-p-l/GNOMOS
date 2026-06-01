@@ -66,7 +66,7 @@ La altura del potencial NO ES IGUAL AL VOLTAJE DEL GATE, HAY UN FACTOR DE ESCALA
 Este factor de escala lo hemos dado en nanoelectrónica y es C_g/C_ES. Cg es la capacidad del Gate y C_ES es la "capacidad total" del sistema.
 Si conectamos el nanohilo a dos terminales S y D (fuente y drenador) uno a cada extremo y aplicamos un voltaje entre ellos, VDS, entonces tendrá cada uno una capacidad asociada: C_s y C_d
 Básicamente, C_ES = C_s + C_d + C_g. Estos son números que nosotros no hemos estudiado y no sabemos cómo obtenerlos. Partimos de ellos, por tanto, pondremos un valor aceptable.
-Un transitor es mejor cuando C_g >> C_s y C_d, porque así el factor C_g/C_ES es prácticamente 1. Nosotros con esta escala no podemos asumir 1, por lo que asumiremos 0.8.
+Un transitor es mejor cuando C_g >> C_s y C_d, porque así el factor C_g/C_ES es prácticamente 1. Asumiremos 1.
 
 
 
