@@ -44,7 +44,8 @@ Tiene 2 picos dentro de la barrera:
 - a 0.09 eV y prácticamente T=1
 - a 0.29 eV y T=1
 
-Eso es lo que me da el simulador
+Eso es lo que me da el simulador, pero el python me da que el pico de 0.09 está en T de 10^-3
+
 
 
 
