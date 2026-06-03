@@ -1,0 +1,33 @@
+Primero que todo, buenos dias 
+me piden que explique que he hecho
+suponiendo que el juande ha demostrado la formula de Kronig penney podemos partir de aqui
+
+Con esa formula tenemos un coseno igualado a una cosa muy tocha
+para que la ecuacion tenga sentido la cosa tocha tiene que estar entre -1 y +1, esto nos da
+la energia de las bandas. Ahora hay que averiguar el k asociado a cada banda pero hoy es 
+nuestro dia de suerte, el coseno, concretamente es cos(ka), pues despejamos k y asi podemos obtener
+Banda(k). 
+
+Y con esto que se hace? pues graficas que se vea una banda bonita y tal. Pero tambien sirve para ver
+como de bien va el simulador para X pozos.
+
+Ahora viene la parte de trabajar con el simulador. La expresión para la k del simulador es la siguiente
+k = (ocurrencia - 0.5) / N_pozos * \pi / a. Esta formula es un poco rara y es importante recalcar que buscando
+un poco mas de info para redactar esto me he dado cuenta que no es por el tema del 0 ni ninguna polla de esas,
+de hecho la relación ocurrencia-n es la siguiente ocurrencia = 2n + 0.5, que no hay por donde cogerla de primeras.
+Pues resulta que la formula sale de las condiciones de contorno y el metodo de matriz de transferencia que es lo 
+que usa el simulador para darnos resultados.
+
+Que otra opción había? hacer un ajuste de lineal ya que sabemos donde va a estar el primer gap, en \pi/a, de esto 
+se encargo el juande pero basicamente para diferentes numero de pozos cogio la ocurrencia del primer gap y su k
+asociada e hizo un ajuste.
+
+Ahora viene el tema de las velocidades. Para la solucion analitica es facil, diferencias finitas de toda la vida, 
+te coges un h pequeño y sale de locos excepto por los gaps, para esos puntos simplemente he puesto en la simulacion
+que si el valor de la derivada subia por encima de cierto limite que fuese NaN. El problema es el simulador, aqui
+no elegimos la h sino que tenemos que calcularla a cada paso, la unica forma de hacer mas pequeña la diferencia entre
+estos k que nos da el simulador es aumentar el numero de pozos. Pues se hace.
+
+Un ultimo punto es que por muchos pozos que pongamos (100) el simulador por alguna razon introduce un punto de silla
+que hace que la velocidad vaya a 0 en algunas bandas, para esto no hay justificación pero asumo que sera por un tema
+del metodo numerico o algo.
