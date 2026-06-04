@@ -2,7 +2,7 @@ la explicación de mi parte es lo siguiente :D
 
 En la primera carta desarrollo la expresión para la barrera de potencial que genera una unión PN y calculo el ancho de carga espacial. no está la demostración de esa expresión pq es una cosa que hemos dado en clase y nos quedábamos sin espacio. 
 
-Para cada material, la barrera de potencial será más grande cuando mayor sea el dopado que tienen, y el dopado máximo que le podemos poner a un material lo hemos definido como su densidad atómica // 100000 (pq si no hemos cambiado demasiados átomos por dopaje y deja de ser un cristal)
+Para cada material, el ancho de la zona de carga espacial será menor cuanto mayor sea el dopado que tiene (va como la raíz de (1/N_A + 1/N_D), y el dopado máximo que le podemos poner a un material lo hemos definido como su densidad atómica // 100000 (pq si no hemos cambiado demasiados átomos por dopaje y deja de ser un cristal)
 
 Pues con los dopados máximos para dos materiales vemos que W es demasiado grande pa los gnomos
 
