@@ -1,0 +1,11 @@
+la explicación de mi parte es lo siguiente :D
+
+En la primera carta desarrollo la expresión para la barrera de potencial que genera una unión PN y calculo el ancho de carga espacial. no está la demostración de esa expresión pq es una cosa que hemos dado en clase y nos quedábamos sin espacio. 
+
+Para cada material, la barrera de potencial será más grande cuando mayor sea el dopado que tienen, y el dopado máximo que le podemos poner a un material lo hemos definido como su densidad atómica // 100000 (pq si no hemos cambiado demasiados átomos por dopaje y deja de ser un cristal)
+
+Pues con los dopados máximos para dos materiales vemos que W es demasiado grande pa los gnomos
+
+
+
+Luego en la segunda carta desarrollo la expresión para el coeficiente de transmisión de una barrera y hago en nanohub una barrera de potencial a V0=0.3 y 15 nm de ancho (estos límites son por el nanohilo), y veo para que material, para una energía de 0,1 V que es la energía de los Kienes, el coef de transmisiónes es menor a 10^-4 (0.01 %). Resulta que el menor coef de tranmisión es el del InSb, pero como es más fácil obtener arsénico que Sb, usamos el InAs que es el segundo menor
